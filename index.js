@@ -8,6 +8,8 @@ var snake_case = '';
 // Boolean { true | false}
 // Number {float | Integer}
 // String {char | varchar}
+//null
+//undefined
 
 // booleanos
 
@@ -56,3 +58,45 @@ check.valueOf(); // true;
 Number(''); // 0
 Number('1'); // 1
 Number('a'); // NaN
+parseInt('1.5'); // 1
+parseFloat('1.5'); //1.5
+//algoritimo
+
+var corDoSemafaro = 'verde';
+
+if (corDoSemafaro === 'vermelho') {
+  console.log('pare');
+}
+
+if (corDoSemafaro === 'verde') {
+  console.log('siga em frente');
+}
+if (corDoSemafaro === 'amarelo') {
+  console.log('atenção');
+}
+
+var ehDia = false;
+
+if (ehDia) {
+  console.log('nascer do sol');
+}
+
+if (!ehDia) {
+  console.log('por do sol e lua');
+}
+
+// operadores de string
+String(1); // "1"
+
+var teste = 1;
+teste.toString(); //"1"
+
+// tipos de variaveis
+
+var teste = ''; //aloca um espaço variavel na memoria do computador
+let teste2 = ''; // aloca um espaço mutavel na memoria do computador
+const teste3 = ''; // aloca um espaço nao mutavel na memoria do computaodor
+
+// quando usar const var ou let?
+//usar const sempre
+// let usa quando nao der pra usar o const
