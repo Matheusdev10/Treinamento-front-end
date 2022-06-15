@@ -73,3 +73,8 @@ const detergente = true;
 const maquina = true;
 const params = { agua, detergente, maquina, sabao };
 lavarRoupa(params);
+
+testeExpressao();
+var testeExpressao = function () {
+  console.log('olaaaaa');
+};
