@@ -20,6 +20,9 @@ const text3 = 'morango';
 text3.slice(1, 4); // nesse exemplo o slice retornara apenas ora
 
 text3.slice(2, 6); // nesse exemplo o slice retornara apenas rang
+
 //no slice negativo ele tira os ultimos caracteres da string porem voce tem que colocar um valor inicial
 const a = 'matheus';
 const guardaNome = a.slice(0, -3);
+
+replace;
