@@ -1,6 +1,6 @@
 const senhas = ['urso', 'ursinho', 'mosquito', 'leite', 'ovo', 'novo'];
 let descript = false;
-//iner coloca as coisas no html pelo lado do js
+//inner coloca as coisas no html pelo lado do js
 function renderKeys() {
   const keys = document.getElementById('keys');
   for (let index = 0; index < senhas.length; index++) {

@@ -72,4 +72,5 @@ module.exports = {
   ips,
   cpfs2,
   lookahead,
+  string,
 };

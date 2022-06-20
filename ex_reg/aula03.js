@@ -43,15 +43,12 @@ const { texto, arquivos } = require('./base');
 // }
 
 //Peça ao usuário para digitar várias idades. Exiba quantas pessoas são maior de idade (18 anos) e quantas são menores
-// let idades = [10, 20, 30, 40, 50];
-// count = 0;
-// for (let i = 0; i < idades.length; i++) {
-//   idade = idades[i];
-//   if (idade >= 18) {
-//     count = count + 1;
-//   }
-// }
-// console.log(count);
-for (let i = 0; i <= 10; i++) {
-  console.log('acorda pedrinho');
+let idades = [10, 20, 30, 40, 50];
+count = 0;
+for (let i = 0; i < idades.length; i++) {
+  idade = idades[i];
+  if (idade >= 18) {
+    count = count + 1;
+  }
 }
+console.log(count);
